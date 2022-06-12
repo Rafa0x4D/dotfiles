@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1a1b26"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Code Medium 11
+    foreground_color = "#a9b1d6"
+    scrollback_lines = 5000
+    palette = "#32344a:#f7768e:#9ece6a:#e0af68:#7aa2f7:#ad8ee6:#449dab:#c5cfff:#6c739e:#ff7a93:#b9f27c:#b36035:#7da6ff:#bb9af7:#0db9d7:#c5cfff"
+    use_system_font = False
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
